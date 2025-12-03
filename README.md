@@ -65,7 +65,7 @@ python channel.py
 ```
 
 - **Input**: `transmitted_signal.wav`
-- **Output**: `transmitted_signal.wav`
+- **Output**: `received_signal.wav`
 
 3. **Receiver**: Demodulate the signal and recover the image.
 
