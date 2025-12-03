@@ -10,14 +10,14 @@ def main() -> None:
     """
     Transmit a grayscale image using an OFDM baseband and Nyquist modulation.
 
-    The script reads `p0.png`, encodes it into OFDM symbols, converts the
+    The script reads `ginkaho.jpg`, encodes it into OFDM symbols, converts the
     complex baseband into a real-valued waveform, and writes the result to
     `transmitted_signal.wav`. A spectrogram of the transmitted signal is
     also displayed.
     """
     print("--- Transmitter ---")
 
-    image_path = "p0.png"
+    image_path = "ginkaho.jpg"
     try:
         img = Image.open(image_path).convert("L")
         img = img.resize((100, 75))
